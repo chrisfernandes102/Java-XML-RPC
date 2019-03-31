@@ -12,7 +12,7 @@ public class BibleVerseClient2 {
 
             Scanner scan = new Scanner(System.in);
             while (true) {
-                System.out.print("Message to Server : ");
+                System.out.print("Bible Verse to lookup: ");
                 String pesan = scan.nextLine();
                 params.addElement(pesan);
                 // send message to server
