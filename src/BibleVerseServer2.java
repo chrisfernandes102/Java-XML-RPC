@@ -7,13 +7,13 @@ import java.io.FileReader;
 import java.io.IOException;
 
 // Description : Get message from client, and display it on the screen
-public class JavaServer {
+public class BibleVerseServer2 {
 
     public static void main(String[] args) {
         try {
             System.out.println("Start XML-RPC Server...");
             WebServer webServer = new WebServer(8080);
-            webServer.addHandler("myServer", new JavaServer());
+            webServer.addHandler("myServer", new BibleVerseServer2());
             webServer.start();
 
             System.out.println("Started successfully.");
