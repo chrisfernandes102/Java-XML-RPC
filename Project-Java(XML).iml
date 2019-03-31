@@ -12,5 +12,6 @@
     <orderEntry type="library" name="org-apache-ws-commons-util" level="project" />
     <orderEntry type="library" name="xerces-2_6_2" level="project" />
     <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="json-simple-1.1.1" level="project" />
   </component>
 </module>
