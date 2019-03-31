@@ -7,13 +7,13 @@ import java.io.FileReader;
 import java.io.IOException;
 
 // Description : Get message from client, and display it on the screen
-public class BibleVerseServer2 {
+public class BibleVerseServer {
 
     public static void main(String[] args) {
         try {
             System.out.println("Start XML-RPC Server...");
             WebServer webServer = new WebServer(8080);
-            webServer.addHandler("myServer", new BibleVerseServer2());
+            webServer.addHandler("myServer", new BibleVerseServer());
             webServer.start();
 
             System.out.println("Started successfully.");
@@ -23,7 +23,7 @@ public class BibleVerseServer2 {
     }
 
     // Method to get Message (String) from client
-    public String pesanClient(String pesan) throws FileNotFoundException {
+    public String searchVerse(String pesan) throws FileNotFoundException {
         System.out.println(pesan);
 
         String verse = null;

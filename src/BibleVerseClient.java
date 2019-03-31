@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Vector;
 
 
-public class BibleVerseClient2 {
+public class BibleVerseClient {
     public static void main(String[] args) {
         try {
             // connect server
@@ -16,7 +16,7 @@ public class BibleVerseClient2 {
                 String pesan = scan.nextLine();
                 params.addElement(pesan);
                 // send message to server
-                Object result = server.execute("myServer.pesanClient", params);
+                Object result = server.execute("myServer.searchVerse", params);
                 System.out.println(result);
                 params.clear();
             }
