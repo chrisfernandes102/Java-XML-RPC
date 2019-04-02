@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BibleVerseClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BibleVerseClient_jar</output-path>
+    <root id="archive" name="Project-Java(XML).jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META1/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Project-Java(XML)" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/xmlrpc-helma-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/org-apache-xmlrpc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/xerces-2_6_2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/org-apache-ws-commons-util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
